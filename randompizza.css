@@ -9,6 +9,11 @@ text-align: center;
 touch-action: manipulation;
 
 }
+
+html {
+    scroll-behavior: smooth;
+  }
+
 .titleBox{
     margin-top: 30px;
     margin-bottom: 100px;

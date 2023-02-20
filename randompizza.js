@@ -15,6 +15,7 @@ button.addEventListener('click', () => {
     var randomPizza = Math.floor(random*14);
     var randomResult= pizza[randomPizza];
     result.innerHTML= randomResult
+    window.scrollTo(0, document.body.scrollHeight);
 })
   
 
